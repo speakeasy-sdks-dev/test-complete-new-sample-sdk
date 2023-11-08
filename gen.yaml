@@ -1,9 +1,14 @@
 configVersion: 1.0.0
 generation:
   comments:
-    disableComments: true
-  sdkClassName: Swagger-Petstore
+    disableComments: false
+    omitDescriptionIfSummaryPresent: false
+  baseServerURL: ""
+  flattenGlobalSecurity: true
   maintainOpenAPIOrder: true
+  sdkClassName: Swagger-Petstore
+  singleTagPerOp: false
+  tagNamespacingDisabled: false
 go:
   version: 0.0.1
   clientServerStatusCodesAsErrors: true
